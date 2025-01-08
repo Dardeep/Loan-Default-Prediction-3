@@ -1,6 +1,6 @@
-# Loan Default Prediction Project
+# Loan Default Prediction 3 - Logistic Regression vs Gradient Boosting
 
-This project focuses on building a robust predictive model to identify loan defaults. Using Gradient Boosting as the final model, the goal was to maximize the recall for defaults (Class 1) while maintaining a balance with precision and overall model performance. The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model selection, and hyperparameter tuning.
+This project showcases a comparative analysis of Logistic Regression and Gradient Boosting models for predicting loan defaults. The primary goals were to evaluate the effectiveness of these models, address class imbalance challenges, and determine the best techniques for handling skewed data and feature scaling. Additionally, the project compares different imbalancing techniques, such as SMOTE, undersampling, and class weights, to optimize model performance and achieve the highest possible recall for defaults (Class 1). The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model selection, and hyperparameter tuning.
 
 ---
 
@@ -115,20 +115,29 @@ The dataset contains **29,459 rows** and **12 columns** after preprocessing and 
 
 ---
 
-## **Installation and Usage**
+---
 
-### **Requirements**
-- Python 3.7+
-- Required libraries:
-  - `pandas`
-  - `numpy`
-  - `scikit-learn`
-  - `imblearn`
-  - `matplotlib`
-  - `joblib`
+## **Next Steps**
+1. **Deploy the Model**:
+   - Integrate the finalized model and threshold into a production system.
+   - Use a REST API framework like Flask or FastAPI for serving predictions.
 
-### **Setup**
-1. Clone this repository.
-   ```bash
-   git clone <repository_url>
+2. **Further Validation**:
+   - Test the model on additional datasets to validate its generalizability.
+   - Monitor performance metrics (e.g., recall, precision) post-deployment.
 
+3. **Feature Expansion**:
+   - Explore adding external features, such as credit bureau data or market trends, to improve predictions.
+
+---
+
+## **Acknowledgments**
+- Dataset used for this project was sourced from [DataCamp](https://assets.datacamp.com/production/repositories/4876/datasets/a2d8510b4aec8d0ac14ab9bee61ba3c085805967/cr_loan2.csv).
+- Special thanks to the open-source community for tools and frameworks.
+
+---
+
+## **Contact**
+For questions or collaboration, please contact:
+- **Email**: dardeepsomel@gmail.com(mailto:dardeepsomel@gmail.com)
+- **LinkedIn**: [Dardeep S](https://www.linkedin.com/in/dardeepsomel/)
